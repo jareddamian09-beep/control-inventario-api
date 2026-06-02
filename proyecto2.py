@@ -4,7 +4,7 @@ from bson import ObjectId
 
 app = FastAPI()
 
-cliente = MongoClient("mongodb://localhost:27017/")
+cliente = MongoClient("mongodb+srv://jareddamian09_db_user:Bt9dVx720imVSNXi@controlinventariocluste.ry635pi.mongodb.net/?appName=ControlInventarioCluster")
 
 db = cliente["control_administrativo"]
 
